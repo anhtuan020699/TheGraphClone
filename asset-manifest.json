@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/TheGraphClone/static/css/main.59eefd54.css",
+    "main.js": "/TheGraphClone/static/js/main.e21da82a.js",
+    "static/js/453.d3401d7c.chunk.js": "/TheGraphClone/static/js/453.d3401d7c.chunk.js",
+    "static/media/EuclidCircularA-SemiBoldItalic.woff": "/TheGraphClone/static/media/EuclidCircularA-SemiBoldItalic.54e2710e628a0365bd4e.woff",
+    "static/media/EuclidCircularA-MediumItalic.woff": "/TheGraphClone/static/media/EuclidCircularA-MediumItalic.7dae6aa8576c467b1137.woff",
+    "static/media/EuclidCircularA-Italic.woff": "/TheGraphClone/static/media/EuclidCircularA-Italic.82072dbdad99245de9af.woff",
+    "static/media/EuclidCircularA-BoldItalic.woff": "/TheGraphClone/static/media/EuclidCircularA-BoldItalic.7fa65e485cfc7d5e8cc2.woff",
+    "static/media/EuclidCircularA-Medium.woff": "/TheGraphClone/static/media/EuclidCircularA-Medium.488156c6807ad4fbf94a.woff",
+    "static/media/EuclidCircularA-SemiBold.woff": "/TheGraphClone/static/media/EuclidCircularA-SemiBold.cca6ec067d40ba5666bd.woff",
+    "static/media/EuclidCircularA-Regular.woff": "/TheGraphClone/static/media/EuclidCircularA-Regular.f1c1a7afe232e0adcd20.woff",
+    "static/media/EuclidCircularA-Bold.woff": "/TheGraphClone/static/media/EuclidCircularA-Bold.6aa60a66806921934556.woff",
+    "static/media/EuclidCircularA-LightItalic.woff": "/TheGraphClone/static/media/EuclidCircularA-LightItalic.66db3f7b1dda0263afb6.woff",
+    "static/media/EuclidCircularA-Light.woff": "/TheGraphClone/static/media/EuclidCircularA-Light.575bfd2d3159ad815caf.woff",
+    "static/media/EuclidCircularA-SemiBoldItalic.woff2": "/TheGraphClone/static/media/EuclidCircularA-SemiBoldItalic.1cd6b5083d87e718a049.woff2",
+    "static/media/EuclidCircularA-MediumItalic.woff2": "/TheGraphClone/static/media/EuclidCircularA-MediumItalic.8bc1702f0b66ddfebfb8.woff2",
+    "static/media/EuclidCircularA-BoldItalic.woff2": "/TheGraphClone/static/media/EuclidCircularA-BoldItalic.0f2baf591edd5f416ed2.woff2",
+    "static/media/EuclidCircularA-Medium.woff2": "/TheGraphClone/static/media/EuclidCircularA-Medium.267ec4808f3f86405b46.woff2",
+    "static/media/EuclidCircularA-SemiBold.woff2": "/TheGraphClone/static/media/EuclidCircularA-SemiBold.ab3579475e086bfda041.woff2",
+    "static/media/EuclidCircularA-Regular.woff2": "/TheGraphClone/static/media/EuclidCircularA-Regular.417fdbbdc0268528f6ba.woff2",
+    "static/media/EuclidCircularA-Bold.woff2": "/TheGraphClone/static/media/EuclidCircularA-Bold.025f7cd5edfbcc99e4cb.woff2",
+    "static/media/EuclidCircularA-LightItalic.woff2": "/TheGraphClone/static/media/EuclidCircularA-LightItalic.36b1b5b8c679b2de2d4a.woff2",
+    "static/media/EuclidCircularA-Light.woff2": "/TheGraphClone/static/media/EuclidCircularA-Light.85f468380ebb5a01c693.woff2",
+    "index.html": "/TheGraphClone/index.html",
+    "main.59eefd54.css.map": "/TheGraphClone/static/css/main.59eefd54.css.map",
+    "main.e21da82a.js.map": "/TheGraphClone/static/js/main.e21da82a.js.map",
+    "453.d3401d7c.chunk.js.map": "/TheGraphClone/static/js/453.d3401d7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59eefd54.css",
+    "static/js/main.e21da82a.js"
+  ]
+}
