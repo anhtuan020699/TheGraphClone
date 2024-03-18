@@ -1,0 +1,205 @@
+@import "~bootstrap/scss/bootstrap";
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Italic.woff")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Italic.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-LightItalic.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-LightItalic.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-MediumItalic.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-MediumItalic.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-BoldItalic.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-BoldItalic.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Light.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Bold.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Medium.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Regular.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-SemiBold.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-SemiBold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../../../public/fonts/euclid-circular-a/EuclidCircularA-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("../../../public/fonts/euclid-circular-a/EuclidCircularA-SemiBoldItalic.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+body {
+  font-family: "Euclid Circular A", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  background-color: #0b0b1d;
+}
+.wrapper {
+  //
+  min-height: 100vh;
+}
+
+.container-global {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media (min-width: 1200px) {
+  .container-global {
+    max-width: 1288px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+:root {
+  --primary-color: #ffffffa3;
+  --secondary-color: #8a4cff;
+  --primary-border-color: rgba(255, 255, 255, 0.16);
+  --primary-background-color: rgba(255, 255, 255, 0.08);
+}
+.hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

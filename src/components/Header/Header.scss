@@ -1,0 +1,113 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffffa3;
+  position: fixed;
+  z-index: 1000;
+  transition: top 0.3s;
+  left: 0;
+  right: 0;
+  &.show {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  &.boder-heder {
+    background-color: #0c091d;
+    border-bottom: 1px solid var(--primary-border-color);
+  }
+  &.hide {
+    top: -100px;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    .menu-left {
+      display: flex;
+      .logo-icon {
+        cursor: pointer;
+      }
+    }
+    .menu-item {
+      margin-left: 20px;
+
+      cursor: pointer;
+      &.active {
+        color: rgba(255, 255, 255, 0.88);
+      }
+      position: relative;
+      .menu-item-content {
+        position: absolute;
+        width: 400px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        margin-top: 16px;
+        margin-left: -50px;
+        // padding: 24px 24px 24px 16px;
+
+        .content-wrapper {
+          padding: 24px 24px 24px 16px;
+          &:not(:last-child) {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+          }
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.04);
+          }
+          .menu-label {
+          }
+          .menu-sub-label {
+            font-weight: 200;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .change-language {
+    display: flex;
+    align-items: center;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.menu-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 220px;
+  max-width: 100%;
+  background-color: rgb(26, 23, 47);
+  transform: translateX(-100%);
+  transition: transform linear 0.2s;
+  .menu-mobile-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .menu-mobile-item {
+      margin-bottom: 10px;
+      &.active {
+        color: rgba(255, 255, 255, 0.88);
+      }
+    }
+  }
+}
+.open-menu {
+  transform: translateX(0%);
+}
+@media (max-width: 768px) {
+  .menu-item {
+    display: none;
+  }
+  .change-language {
+    display: none;
+  }
+}
